@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #26495c;
+    color: #e5e5dc;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+.logo {
+    margin-right: 10px; /* Optional: Add margin between logo and text */
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some space between the logo and the title */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #26495c;
+    color: #e5e5dc;
+    text-align: center;
+    padding: 10px 0;
+}
+
