@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 60%;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 40%;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.floor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#floor-controls {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Aligns the buttons in the center */
+}
+
+.floor-amount,
+.floor-rate {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#tax-info {
+    margin-top: 20px;
+}
+
+#tax-info p {
+    margin-bottom: 10px;
+    text-align: center;
+}
